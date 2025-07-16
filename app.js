@@ -8,7 +8,7 @@ const fromDollarToYen = function(valueInDollar) {
     return valueInYen; // Return the converted value
     
 }
-
+ //test
 const fromYenToPound = function(valueInYen) {
     let valueInDollar = valueInYen / 156.5; // Convert yen to dollars
     let valueInPound = valueInDollar * 0.87; // Convert dollars to pounds
